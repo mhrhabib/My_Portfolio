@@ -1,0 +1,8 @@
+.btn-lg{
+    background-color: red;
+}
+.btn-lg:hover{
+    font-size: 50px;
+    background-color: aqua;
+    border-radius: 10px;
+}
