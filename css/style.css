@@ -34,6 +34,40 @@ body{
     background-color: rgba(0,0,0,0.0);
     border-radius: 10px;
 }
+
+/*navigation bar*/
+
+#navigation{
+    background-color: #e74c3c;
+    padding: 10px 5px;
+    margin: 0;
+    z-index: 100;
+    width: 100%;
+}
+
+#navigation li{
+    padding: 0 10px;
+    
+}
+
+#navigation li a{
+    color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover{
+    color: #fff;
+}
+.icon-bar{
+    background-size: 100%;
+    background-color: white;
+}
+
+.fixedNav #navigation{
+    position: fixed;
+    top: 0;
+}
+
 .titleMessage {
     position: absolute;
     width: 100%;
